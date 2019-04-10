@@ -1,0 +1,61 @@
+{
+  "_from": "phonegap-plugin-xtremepush@^2.0.5",
+  "_id": "phonegap-plugin-xtremepush@2.0.5",
+  "_inBundle": false,
+  "_integrity": "sha1-+hVlvfUlDV2xuoV35Jr3vJZ8ihg=",
+  "_location": "/phonegap-plugin-xtremepush",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "phonegap-plugin-xtremepush@^2.0.5",
+    "name": "phonegap-plugin-xtremepush",
+    "escapedName": "phonegap-plugin-xtremepush",
+    "rawSpec": "^2.0.5",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.5"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/phonegap-plugin-xtremepush/-/phonegap-plugin-xtremepush-2.0.5.tgz",
+  "_shasum": "fa1565bdf5250d5db1ba8577e49af7bc967c8a18",
+  "_spec": "phonegap-plugin-xtremepush@^2.0.5",
+  "_where": "/Users/David/Documents/SVNROOT/clubCodere",
+  "author": {
+    "name": "Xtremepush Ltd."
+  },
+  "bugs": {
+    "url": "https://github.com/xtremepush/XtremePush-Phonegap/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "com.xtreme.plugins.XtremePush",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Plugin allows integration with Xtreme Push provider.",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=4.0.0"
+    }
+  ],
+  "homepage": "https://github.com/xtremepush/XtremePush-Phonegap#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "phonegap-plugin-xtremepush",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtremepush/XtremePush-Phonegap.git"
+  },
+  "version": "2.0.5"
+}
