@@ -289,6 +289,16 @@ static NSMutableDictionary *pushNotificationBackupList;
     [XPush setExternalId:externalId];
 }
 
+- (void) setUser:(CDVInvokedUrlCommand *)command {
+    NSString *userId = [command.arguments objectAtIndex:0];
+    [XPush setUser:userId];
+}
+
+- (void) setTempUser:(CDVInvokedUrlCommand *)command {
+    NSString *userId = [command.arguments objectAtIndex:0];
+    [XPush setTempUser:userId];
+}
+
 - (void) setSubscription:(CDVInvokedUrlCommand *)command {
     BOOL subscription = [[command.arguments objectAtIndex:0] boolValue];
     [XPush setSubscription:subscription];
@@ -382,13 +392,7 @@ static NSMutableDictionary *pushNotificationBackupList;
 - (void) callInboxBadgeCallback {
     if (self.inboxBadgeCallback) {
         NSString * jsCallBack = [NSString stringWithFormat:@"%@(%d);", self.inboxBadgeCallback, [XPush getInboxBadge]];
-        if ([self.webView respondsToSelector:@selector(stringByEvaluatingJavaScriptFromString:)]) {
-            // Cordova-iOS pre-4
-            [self.webView performSelectorOnMainThread:@selector(stringByEvaluatingJavaScriptFromString:) withObject:jsCallBack waitUntilDone:NO];
-        } else {
-            // Cordova-iOS 4+
-            [self.webView performSelectorOnMainThread:@selector(evaluateJavaScript:completionHandler:) withObject:jsCallBack waitUntilDone:NO];
-        }
+        [self.commandDelegate evalJs:jsCallBack];
     }
 }
 
