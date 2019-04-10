@@ -1,13 +1,14 @@
 {
   "_from": "git+https://github.com/xtremepush/XtremePush-Phonegap.git",
-  "_id": "com.xtreme.plugins.XtremePush@3.0.4",
+  "_id": "com.xtreme.plugins.XtremePush@4.1.0",
   "_inBundle": false,
+  "_integrity": "",
   "_location": "/com.xtreme.plugins.XtremePush",
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "git+https://github.com/xtremepush/XtremePush-Phonegap.git",
-    "rawSpec": "git+https://github.com/xtremepush/XtremePush-Phonegap.git",
+    "raw": "https://github.com/xtremepush/XtremePush-Phonegap",
+    "rawSpec": "https://github.com/xtremepush/XtremePush-Phonegap",
     "saveSpec": "git+https://github.com/xtremepush/XtremePush-Phonegap.git",
     "fetchSpec": "https://github.com/xtremepush/XtremePush-Phonegap.git",
     "gitCommittish": null
@@ -16,9 +17,9 @@
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/xtremepush/XtremePush-Phonegap.git#59006a57efb983ffe07ded2b5c6cbd1328a5e47e",
-  "_spec": "git+https://github.com/xtremepush/XtremePush-Phonegap.git",
-  "_where": "/Users/David/Documents/SVNROOT/appuestasTFS/FrontEnd",
+  "_resolved": "git+https://github.com/xtremepush/XtremePush-Phonegap.git#d0b3a888c999382c40527687a9988cb66eca73f9",
+  "_spec": "https://github.com/xtremepush/XtremePush-Phonegap",
+  "_where": "/Users/David/Documents/SVNROOT/appuestasTFS/cSBGOnline-Frontend",
   "author": {
     "name": "Xtremepush Ltd."
   },
@@ -44,5 +45,5 @@
     "cordova-ios"
   ],
   "name": "com.xtreme.plugins.XtremePush",
-  "version": "3.0.4"
+  "version": "4.1.0"
 }
